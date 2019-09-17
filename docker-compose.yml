@@ -14,6 +14,7 @@ version: '3.1'
 
 services:
   drupal:
+    container_name: drupal
     build:
       context: .
     environment:
@@ -26,6 +27,7 @@ services:
     restart: always
 
   mysql:
+    container_name: mysql
     image: mariadb:10.4.8
     ports:
       - "3306:3306"
