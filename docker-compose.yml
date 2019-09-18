@@ -24,6 +24,8 @@ services:
       - 8080:80
     volumes:
       - ./drupal:/var/www/html
+      - ./files:/var/www/html/sites/default/files
+      - ./sync:/var/www/sync
     restart: always
 
   mysql:
