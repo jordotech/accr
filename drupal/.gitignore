@@ -35,12 +35,6 @@
 /.eslintignore
 /.eslintrc.json
 /.gitattributes
-/.htaccess
-/autoload.php
 /example.gitignore
-/index.php
 /LICENSE.txt
 /README.txt
-/robots.txt
-/update.php
-/web.config
